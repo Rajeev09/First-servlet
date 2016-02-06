@@ -31,6 +31,8 @@ public class MyServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 		ServletOutputStream out = response.getOutputStream();
+        
+        ///hello
 
 		// set content type and other response header fields first
 		response.setContentType("text/html");
